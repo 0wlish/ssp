@@ -1,0 +1,52 @@
+nav {
+  background-color: #ebe6cf;
+  overflow: hidden;
+}
+nav a {
+  padding: 15px;
+  float: left;
+  text-align: center;
+}
+nav a:link {
+  text-decoration: none;
+  color: #0d052b;
+}
+nav a:visited {
+  color: #0d052b;
+}
+nav a:hover {
+  background-color: #62ab89;
+}
+body {
+    margin: 0;
+    background-color: #0b4221;
+    color: #0d052b;
+}
+div {
+    background-color: #ebe6cf;
+    margin: 10px;
+    padding: 10px;
+}
+p, a, .courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, .courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
