@@ -3,7 +3,7 @@ nav {
   overflow: hidden;
 }
 nav a {
-  padding: 15px 20px;
+  padding: 15px 30px;
   float: left;
   text-align: center;
 }
@@ -24,7 +24,7 @@ body {
 }
 div {
     background-color: #ebe6cf;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
 }
 p, a, .courier-prime-regular {
@@ -33,7 +33,7 @@ p, a, .courier-prime-regular {
   font-style: normal;
 }
 
-h1, .courier-prime-bold {
+h1, h2, h3, .courier-prime-bold {
   font-family: "Courier Prime", monospace;
   font-weight: 700;
   font-style: normal;
@@ -49,4 +49,22 @@ h1, .courier-prime-bold {
   font-family: "Courier Prime", monospace;
   font-weight: 700;
   font-style: italic;
+}
+.goat-container {
+  /*overflow: visible;*/
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+.goat-item {
+  width: 150px;
+  height: 300px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #c66a52;
+}
+.goat-item img {
+  width: 150px;
+}
+.goat-item h3 {
+  text-align: center;
 }
