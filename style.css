@@ -27,7 +27,7 @@ div {
     margin: 20px;
     padding: 10px;
 }
-p, a, .courier-prime-regular {
+p, a, li, .courier-prime-regular {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
