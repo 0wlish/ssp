@@ -25,7 +25,7 @@ body {
 div {
     background-color: #ebe6cf;
     margin: 20px;
-    padding: 10px;
+    padding: 30px;
 }
 p, a, li, .courier-prime-regular {
   font-family: "Courier Prime", monospace;
@@ -51,9 +51,9 @@ h1, h2, h3, .courier-prime-bold {
   font-style: italic;
 }
 .goat-container {
-  /*overflow: visible;*/
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 0px;
 }
 .goat-item {
   width: 150px;
@@ -62,7 +62,7 @@ h1, h2, h3, .courier-prime-bold {
   margin: 5px;
   background-color: #c66a52;
 }
-.goat-item img {
+div img {
   width: 150px;
 }
 .goat-item h3 {
