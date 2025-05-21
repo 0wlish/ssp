@@ -1,16 +1,27 @@
-.slides img {
+.slides img, .slides2 img {
     width: 300px;
     margin: 10px;
     margin-right: 20px;
+}
+.slides2 {
+    height: fit-content;
+}
+.slides2 h3 {
+    padding: 0px;
+}
+.slides img {
     float: left;
 }
-.slides h3 {
+.slides h3, .slides2 h3 {
     padding: 20px;
 }
-.slides {
+.slides, .slides2 {
     display: none;
     padding: 0;
     height: 420px;
+}
+.slides2 {
+    height: 500px;
 }
 .slideshow-container {
     max-width: 700px;
@@ -39,4 +50,7 @@
 }
 .prev:hover, .next:hover {
     background-color: #62ab89;
+}
+#invasives, #other {
+    height: 1000px;
 }
