@@ -49,7 +49,7 @@
     right: 0;
 }
 .prev:hover, .next:hover {
-    background-color: #62ab89;
+    background-color: #c66a52;
 }
 #invasives, #other {
     height: 1000px;

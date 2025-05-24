@@ -1,5 +1,5 @@
 nav {
-  background-color: #ebe6cf;
+  background-color: #efb22b;
   overflow: hidden;
 }
 nav a {
@@ -15,12 +15,16 @@ nav a:visited {
   color: #0d052b;
 }
 nav a:hover {
-  background-color: #62ab89;
+  background-color: #c66a52;
 }
 body {
     margin: 0;
     background-color: #0b4221;
     color: #0d052b;
+    background-image: url(images/websiteleft.jpg), url(images/websiteright.jpg);
+    background-position: left 25px, right 25px;
+    background-repeat: repeat-y;
+    background-size: 16%;
 }
 div {
     background-color: #ebe6cf;
@@ -70,11 +74,4 @@ h1, h2, h3, .courier-prime-bold {
 }
 .goat-item h3 {
   text-align: center;
-}
-#invasives {
-  width: 50%;
-  margin-top: 0px;
-}
-#other {
-  margin-left: 60%;
 }
