@@ -25,6 +25,7 @@ body {
     background-position: left 25px, right 25px;
     background-repeat: repeat-y;
     background-size: 16%;
+    cursor: url(images/cursor.png), auto;
 }
 div {
     background-color: #ebe6cf;
