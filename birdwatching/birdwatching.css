@@ -1,0 +1,55 @@
+.dropdown {
+    background-color: #efb22b;
+    margin: 0px;
+}
+.dropdown ul {
+    display: none;
+}
+.dropdown h2:hover {
+    background-color: #c66a52;
+}
+
+.slides img {
+    width: 100%;
+}
+.slides p {
+    position: absolute;
+    padding: 8px 12px;
+    bottom: -10px;
+    text-align: center;
+    width: 600px;
+}
+.slides {
+    display: none;
+    padding: 0;
+    height: 400px;
+    width: 600px;
+}
+.slideshow-container {
+    width: 700px;
+    position: relative;
+    margin: auto;
+    background-color: #efb22b;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #0d052b;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: #c66a52;
+}
