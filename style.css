@@ -17,6 +17,9 @@ nav a:visited {
 nav a:hover {
   background-color: #c66a52;
 }
+.red-img {
+  background-color: #c66a52;
+}
 body {
     margin: 0;
     background-color: #0b4221;
@@ -60,13 +63,14 @@ h1, h2, h3, .courier-prime-bold {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 0px;
+  width: fit-content;
 }
 .goat-item {
-  max-width: 150px;
+  max-width: 200px;
   width: auto;
   height: 300px;
   padding: 10px;
-  margin: auto;
+  margin: 10px;
   background-color: #c66a52;
 }
 .goat-item img {
