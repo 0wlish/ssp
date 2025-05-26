@@ -1,6 +1,5 @@
 .slides img, .slides2 img {
     width: 300px;
-    margin: 10px;
     margin-right: 20px;
 }
 .slides2 h3 {
@@ -18,7 +17,7 @@
 .slides, .slides2 {
     display: none;
     padding: 0;
-    height: 420px;
+    height: 400px;
     width: 600px;
 }
 .slideshow-container {
